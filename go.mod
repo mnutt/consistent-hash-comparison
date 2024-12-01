@@ -15,8 +15,11 @@ require (
 )
 
 require (
+	github.com/bobhansen/groupcache v0.0.0-20181004180814-d6d0da08e3cc // indirect
 	github.com/cespare/xxhash/v2 v2.1.1 // indirect
 	github.com/dgryski/go-jump v0.0.0-20211018200510-ba001c3ffce0 // indirect
 	github.com/gobwas/avl v0.2.1 // indirect
+	github.com/golang/protobuf v1.5.4 // indirect
+	google.golang.org/protobuf v1.33.0 // indirect
 	stathat.com/c/consistent v1.0.0 // indirect
 )

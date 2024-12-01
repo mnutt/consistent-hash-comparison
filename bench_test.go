@@ -33,6 +33,7 @@ func BenchmarkConsistentHash(b *testing.B) {
 		"GoConsistentHasher":     func() Hasher { return NewGoConsistentHasher() },
 		"HashRingHasher":         func() Hasher { return NewHashRingHasher() },
 		"GroupCacheHasher":       func() Hasher { return NewGroupCacheHasher() },
+		"GroupCachePrefixHasher": func() Hasher { return NewGroupCachePrefixHasher() },
 		"ConsistentHasher":       func() Hasher { return NewConsistentHasher() },
 		"AnchorHasher":           func() Hasher { return NewAnchorHasher() },
 	}
